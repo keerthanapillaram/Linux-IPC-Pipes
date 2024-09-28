@@ -1,3 +1,10 @@
+# Linux-IPC--Pipes
+Linux-IPC-Pipes
+
+## Name: P Keerthana
+## Reg.No:212223240069
+
+
 # Ex03-Linux IPC - Pipes
 
 # AIM:
@@ -76,24 +83,10 @@ n=read(rfd,buff,2000);
 buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
-
 ```
 ## OUTPUT
-```
-cat> hello.txt
-Hello world
-Operating systems
-to check pipe
+![image](https://github.com/Jeshwanthkumarpayyavula/Linux-IPC-Pipes/assets/145742402/a8f41557-7091-49a5-8942-2e0414b9044f)
 
-localhost:~# ./a.out
-ENTER THE FILE NAME :hello.txt	
-CLIENT SENDING THE REQUEST .... PLEASE WAIT
-THE RESULTS OF CLIENTS ARE ...... 
-Hello world
-Operating systems
-to check pipe
-
-```
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
@@ -109,14 +102,8 @@ exit(EXIT_SUCCESS);
 }
 ```
 ## OUTPUT
-```
+![image](https://github.com/Jeshwanthkumarpayyavula/Linux-IPC-Pipes/assets/145742402/3ab29172-6e54-451f-a7f4-290661a5364a)
 
-localhost:~# gcc fifo.c
-localhost:~# ./a.out
-FIFO created
-localhost:~# ls -l /tmp/my_fifo
-prwxr-xr-x    1 root     root             0 Sep 13 11:31 /tmp/my_fifo
-```
 
 # RESULT:
 The program is executed successfully.
